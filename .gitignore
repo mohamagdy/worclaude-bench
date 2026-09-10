@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Tooling
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# Benchmark output — these hold results from someone's real deployment, and
+# their source names are nobody else's business.
+*.json
+!.github/**/*.json
